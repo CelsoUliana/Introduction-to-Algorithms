@@ -1,2 +1,2 @@
 # Introduction-to-Algorithms
-Study and implementation of some of Cormen's intro to algorithms book.
+Study and simple python3(mostly) implementation of some of Cormen's Introduction to algorithms third edition.
