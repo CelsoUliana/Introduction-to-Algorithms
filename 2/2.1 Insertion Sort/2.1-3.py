@@ -1,5 +1,5 @@
 # Celso Uliana -- Jan 2021
-# Linear search
+# Linear search python 3
 
 A = [5, 2, 4, 6, 1, 3]
 

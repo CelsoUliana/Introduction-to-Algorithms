@@ -1,5 +1,5 @@
 # Celso Uliana -- Jan 2021
-# Linear binary array add
+# Linear binary array add python 3
 
 A = [1, 1, 1, 1, 0, 0] # 60
 B = [1, 0, 1, 0, 0, 1] # 41
@@ -19,8 +19,7 @@ def binaryAdd(A, B):
             C[i] -= 2
             carryOver = 1
         
-    C[0] = carryOver
-        
-    return(C)
+    C[0] = carryOver    
+    return C
 
 print(binaryAdd(A, B))
