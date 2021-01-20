@@ -1,6 +1,5 @@
 # Celso Uliana -- Jan 2021
 # Merge sort without sentinels python 3
-import math
 import random
 
 #A = [5, 2, 4, 6, 1, 3]
