@@ -15,7 +15,6 @@ def naivePolynomialEvaluation(x, a):
         p = 1
         for _ in range(len(a) - i - 1):
             p = p * x
-        print(p, a[i])
         polySum += a[i] * p
     return polySum
 

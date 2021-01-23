@@ -29,9 +29,7 @@ def mergeInvCounter(A, p, q, r):
     L[n1] = math.inf
     R[n2] = math.inf
 
-    i = j = 0
-
-    inv = 0
+    i = j = inv = 0
     
     for k in range(p, r + 1):
         if L[i] <= R[j]:
@@ -42,7 +40,7 @@ def mergeInvCounter(A, p, q, r):
             j += 1
             # At this point everything between i and n1 is an inversion (n1 - i can be 0 which indicates no inversion)
             inv += n1 - i
-            # Not needed, but lists the inversions(not same order as above since that list is in the order it appers and Mergesort splits)
+            # Not needed, but lists the inversions(not same order as above since that list is in the order it appears)
             for z in range(i, n1):
                 print("({}, {})".format(L[z], R[j - 1]))
     return inv
